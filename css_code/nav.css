@@ -1,113 +1,28 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+#box {
+  color: blue;
 }
 
-body {
-  background-color: #f3f3f3;
-  line-height: 1.6;
-  padding: 0;
-  margin: 0;
+.HeadingOne {
+  color: red;
+  text-align: end;
+  text-decoration: black wavy overline;
+  font-weight: normal;
 }
 
-nav {
-  background-color: #333;
-  height: 70px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-  position: fixed; /* Fixed navigation bar */
-  top: 0;
-  z-index: 1000; /* Ensures nav stays on top */
+.HeadingTwo {
+  color: green;
+  text-align: start;
+  text-decoration: black wavy underline;
+  font-weight: bolder;
 }
 
-.logo {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-
-nav ul li {
-  margin: 0 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  padding: 7px 13px;
-  border-radius: 3px;
-  transition: background-color 0.3s ease;
-}
-
-nav ul li a:hover,
-nav ul li a.active {
-  background-color: #555;
-}
-
-.checkbtn {
-  display: none;
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
-}
-
-#check {
-  display: none;
-}
-
-.info {
-  padding: 100px 20px 20px; /* Adjust for fixed nav */
+.HeadingThree {
+  color: blue;
   text-align: center;
+  text-decoration: red  wavy line-through; 
+  font-weight: lighter;
 }
 
-.info p {
-  margin: 15px 0;
-  font-size: 18px;
-  color: #333;
-}
-
-@media (max-width: 768px) {
-  .checkbtn {
-      display: block;
-  }
-  
-  nav ul {
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background-color: #333;
-      top: 70px;
-      left: -100%;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.5s ease;
-  }
-
-  nav ul li {
-      margin: 20px 0;
-  }
-
-  nav ul li a {
-      font-size: 20px;
-  }
-
-  #check:checked ~ ul {
-      left: 0;
-  }
-
-  .info {
-      padding-top: 200px; /* Extra padding for smaller screens */
-  }
+.btn {
+  color:red;
 }
