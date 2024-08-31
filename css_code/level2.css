@@ -4,20 +4,22 @@
     color: white;
 }
 #navbar {
-    height: 60px;
+    height: 50px;
     background-color:darkred;
 }
 
 .logo {
     font-size: 30px;
-    padding-top: 20px;
     text-decoration: none;
+    color: aqua;
 }
 
 a {
-    margin-right: 150px;
+    margin-right: 110px;
     text-decoration: none;
     font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 
@@ -28,12 +30,12 @@ a {
     height: 35px;
     border: 2px solid aqua;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #input {
     height: 35px;
     border: 2px solid aqua;
     border-radius: 10px;
-    margin-top: 15px;
     font-size: 20px;
 }
