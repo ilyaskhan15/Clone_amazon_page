@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#navbar {
+    height: 60px;
+    background-color:darkred;
+}
+
+.logo {
+    font-size: 30px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+a {
+    margin-right: 150px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+#btn {
+    background-color: yellow;
+    color: black;
+    width: 96px;
+    height: 35px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+}
+
+#input {
+    height: 35px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+}
