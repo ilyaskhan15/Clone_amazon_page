@@ -15,7 +15,8 @@ div {
 
 #box1 {
     position: static;
-    background-color: red;
+    background-image: url(/media_folder/another_bg.jpg);
+    background-size: contain;
     top: 100px; /* nothing change this time*/
 }
 
