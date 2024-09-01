@@ -1,0 +1,53 @@
+/* Position
+static::is defautl position(the top, left, right,bottom and z-indexes have no effect)
+relative::element is relative itself(all properties will work)
+absolute:: positioned relative to its closest positioned ancestor.
+fixed:: positioned relative to broweser
+sticky:: positioned based on user's scrol position. */
+
+div {
+    border: 3px solid black;
+    display: inline-block;
+    margin-right: 20px;
+    width: 100px;
+    height: 80px;
+}
+
+#box1 {
+    position: static;
+    background-color: red;
+    top: 100px; /* nothing change this time*/
+}
+
+#box2 { 
+    position: relative;
+    background-color: green;
+    left: 100px;
+    top: 1000px;
+}
+
+#box3 {
+    background-color: yellow;
+    position: absolute;
+    z-index: 1;
+    top: 40px; /* In positioning I absorb that it will positioned the element according to its parent element*/
+}
+
+#box4 {
+    position: fixed;
+    background-color: pink;
+    right: 0;
+    top: 0;
+    /*In this position we absorb that element will change itself according to browser and it will stick on his position.it will never change it postion*/
+}
+
+/*sticky it used for the element if you want to the element 
+to reach it place and fixed here so we use sticky*/
+
+#box5 {
+    background-color: black;
+    position: sticky;
+    color: white;
+}
+
+/* z-index is used for overlaping and deciding who gonna come infront of anther element. It doesn't work on static positioning*/
