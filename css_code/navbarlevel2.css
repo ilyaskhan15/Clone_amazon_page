@@ -1,41 +1,45 @@
-* {
-    padding: 0;
-    margin: 0;
-    color: white;
-}
 #navbar {
     height: 50px;
-    background-color:darkred;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-right: 10px;
 }
 
-.logo {
-    font-size: 30px;
-    text-decoration: none;
-    color: aqua;
-}
 
 a {
-    margin-right: 110px;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-
-#btn {
-    background-color: yellow;
     color: black;
-    width: 96px;
-    height: 35px;
-    border: 2px solid aqua;
-    border-radius: 10px;
-    cursor: pointer;
+    font-size: 20px;
 }
 
-#input {
-    height: 35px;
-    border: 2px solid aqua;
-    border-radius: 10px;
-    font-size: 20px;
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+#outer {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+
+#inner  {
+    display: inline;
+    background-color: red;
+    height: 100px;
+    width: 100px;
 }
