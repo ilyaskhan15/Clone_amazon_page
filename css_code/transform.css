@@ -1,0 +1,22 @@
+/* Transform is used to apply 2D and 3D transformation to an element */
+/* Translate is used to move element from one axis to another*/
+div {
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    width: 200px;
+    height: 150px;
+    background-color: pink;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+div:hover {
+    rotate: z 360deg;
+    transition-duration: 3s;
+    transform: scale(1.5);
+    color: red;
+    transform: translateY(100px);
+    transform: skew(45deg);
+}
