@@ -1,0 +1,29 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2ms; */
+
+    transition: all 2s ease-in-out 0.4s;
+    /* Transition shorthand
+                property name / duration / timing-function / delay
+    transition:  font-siz   / 2s         / ease-in-out    / 0.3s
+    transition: font-size 2s ease-in-out 0.3s
+    */
+    
+}
+
+
+div:hover {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+div:active {
+    background-color: red;
+}
