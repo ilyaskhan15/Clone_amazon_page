@@ -1,0 +1,28 @@
+/* div {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: palevioletred;
+    animation: divAnimate 2s ease-in 0s infinite alternate;
+}
+
+@keyframes divAnimate {
+    from{left: 100px;} to {left: 400px;}
+} */
+
+
+div {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    height: 50px;
+    width: 50px;
+    border: 20px solid yellow;
+    border-top: 20px solid black;
+    border-radius: 50%;
+    transform: rotateZ(360deg);
+}
+
+
