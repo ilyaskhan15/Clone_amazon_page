@@ -205,11 +205,13 @@ body {
 /* finish nav section  */
 
 /* another nav  */
+/* first section  */
 
 .another-nav {
     height: 39px;
     background: hsl(180, 5%, 29%);
     display: flex;
+    justify-content: space-between;
 }
 
 .another-nav .p {
@@ -218,28 +220,79 @@ body {
 
 
 .three-bar-icon {
-    background: brown;
     height: 39px;
     width: 59px;
     display: flex;
     justify-content: space-around;
 }
 
-.three-bar-icon i {
+
+
+.services {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0; /* Remove default padding */
+    margin: 0;  /* Remove default margin */
+}   
+
+.services a {
     position: relative;
-    font-size: x-large;
-    top: 4px;
+    top: 9px;
+    right: 160px;
+    text-decoration: none;
+    font-size: large;
+    color: white;
 }
 
-.three-bar-icon p {
+/* last-section */
+
+
+.last-section {
+    height: 39px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.last-section a {
+    text-decoration: none;
     position: relative;
-    bottom: 8px;
+    bottom: 7px;
+    right: 10px;
+    color: white;
     font-size: large;
 }
 
-/* first section  */
 
-.services {
+/* image section  */
+
+.background-image {
+    background: url(/media_folder/bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+
+.box1 {
+    height: 420px;
+    width: 324px;
+    background: brown;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.child {
+    position: relative;
+    top: 4%;
+    display: flex;
+    width: 110px;
+    height: 164px;
+    background: red;
 }
