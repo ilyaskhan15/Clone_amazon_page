@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    color: white;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #0f1111;
+}
+
+.amazon-logo {
+    height: 50px;
+    width: 113px;
+    background-image: url(/media_folder/amazonlog.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 4px;
+    left: 3px;
+    margin-right: 4px;
+}
+
+/* 2nd part */
+.nav-address {
+    position: relative;
+    height: 50px;
+    width: 91px;
+    top: 4px;
+}
+
+.address-icon {
+    position: relative;
+    top: 12px;
+    left: 5px;
+    display: flex;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.nav-address p {
+    margin: 0;
+}
+.p1 {
+    position: relative;
+    left: 13px;
+    top: 10px;
+    font-weight: bolder;
+    height: 14px;
+    width: 56px;
+    font-size: 12px;
+    color: #cccccc;
+}
+.p2 {
+    position: relative;
+    left: 3px;
+    top: 2px;
+    font-weight: bolder;
+    height: 16px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* third part */
+
+.nav-search {
+    position: relative;
+    top: 8px;
+    left: 4px;
+    width: 447px;
+    justify-content: space-between;
+    display: flex;
+    height: 40px;
+}
+
+.search-button {
+    background: #e6e6e6;
+    width: 52px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 7px 10px 10px 0px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+}
+
+#search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    width: 45px;
+    background: rgb(240, 170, 40);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;     
+}
+
+/* fourth section */
+
+.selecting-section {
+    position: relative;
+    top: 5px;
+    height: 50px;
+    width: 73px;
+    display: flex;
+}
+
+.img{
+    position: relative;
+    top: 22px;
+    left: 3px;
+    background: url(/media_folder/pakistanflag.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 21px;
+}
+
+.lang {
+    position: relative;
+    top: 24px;
+    left: 5px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#down-arrow {
+    position: relative;
+    top: 27px;
+    left: 8px;
+}
+
+/* fifth section */
+
+.account {
+    height: 50;
+    width: 137.50;
+    padding: 0px 9px 10px 9px;
+}
+
+.account p {
+    margin: 0;
+}
+
+.inner-account {
+    display: flex;
+}
+
+.p12 {
+    position: relative;
+    top: 13px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.p22 {
+    position: relative;
+    top: 16px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#down-arrow2 {
+    position: relative;
+    top: 20px;
+    left: 4px;
+}
+
+/* sixth section  */
+
+.order {
+    height: 50;
+    width: 77px;
+}
+
+.order p {
+    position: relative;
+    top: 15px;
+    left: 4px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+/* seven section  */
+
+.cart {
+    position: relative;
+    top: 4px;
+    height: 50px;
+    width: 84px;
+}
+
+.cart-icon {
+    position: relative;
+    top: 7px;
+    left: 5px;
+    display: flex;
+}
