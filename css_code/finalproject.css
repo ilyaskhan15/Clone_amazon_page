@@ -201,3 +201,45 @@ body {
     left: 5px;
     display: flex;
 }
+
+/* finish nav section  */
+
+/* another nav  */
+
+.another-nav {
+    height: 39px;
+    background: hsl(180, 5%, 29%);
+    display: flex;
+}
+
+.another-nav .p {
+    margin: 0px;
+}
+
+
+.three-bar-icon {
+    background: brown;
+    height: 39px;
+    width: 59px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.three-bar-icon i {
+    position: relative;
+    font-size: x-large;
+    top: 4px;
+}
+
+.three-bar-icon p {
+    position: relative;
+    bottom: 8px;
+    font-size: large;
+}
+
+/* first section  */
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
