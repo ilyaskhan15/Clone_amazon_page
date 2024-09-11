@@ -305,3 +305,42 @@ body {
     display: flex;
 }
 
+.another-shop {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+/* footer section  */
+.footer {
+    position: relative;
+    top: 15px;
+}
+
+
+.pannel-one {
+    height: 50px;
+    background: rgb(49, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.pannel-one a {
+    font-size: large;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+.information  {
+    display: flex;
+    justify-content: space-around;
+    background: hsl(0, 3%, 24%);
+}
+
+.information a {
+    text-decoration: none;
+    color: #c0b9b9;
+}
+
