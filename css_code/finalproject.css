@@ -13,7 +13,7 @@ body {
 .amazon-logo {
     height: 50px;
     width: 113px;
-    background-image: url(/media_folder/amazonlog.png);
+    background-image: url(/media_folder/logo-images/amazonlog.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -114,7 +114,7 @@ body {
     position: relative;
     top: 22px;
     left: 3px;
-    background: url(/media_folder/pakistanflag.jpg);
+    background: url(/media_folder/logo-images/pakistanflag.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 16px;
@@ -268,31 +268,40 @@ body {
 
 /* image section  */
 
-.background-image {
-    background: url(/media_folder/bgimage.jpg);
+.hero-section {
+    background: url(/media_folder/background-image/anotherbgimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 300px;
     width: 100%;
 }
 
-.box1 {
-    height: 420px;
-    width: 324px;
-    background: brown;
+/* shop sectoin  */
+
+.shop-section {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     position: relative;
-    top: 100px;
-    left: 100px;
+    bottom: 30px;
 }
 
-.child {
-    position: relative;
-    top: 4%;
-    display: flex;
-    width: 110px;
-    height: 164px;
-    background: red;
+.box {
+    background-color: #e2e6e7;
+    height: 300px;
+    box-sizing: border-box;
+    width: 21%;
+    margin: 0;
+    padding: 0;
 }
+
+.box-image {
+    background: url(/media_folder/background-image/anotherbgimage.jpg) no-repeat center center;
+    background-size: cover;
+    height: 65%;
+    width: 100%;
+}
+
+.shop-section2 {
+    display: flex;
+}
+
